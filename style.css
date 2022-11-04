@@ -1,0 +1,71 @@
+ body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #2e2b2b;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+
+ .container {
+     width: 50%;
+     border: transparent;
+     padding: 30px;
+     border-color: transparent;
+     border-style: ridge;
+     margin: auto;
+     margin-top: 100px;
+
+ }
+
+ .input-item {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+
+ }
+
+ .txtbtn {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #todo-item {
+     background-color: transparent;
+     color: #fff;
+     border: none;
+     outline: none;
+     border-bottom: 3px solid #5b6170;
+
+
+
+ }
+
+ .btndel {
+     margin-left: 90px;
+ }
+ .btn {
+     width: 100px;
+     background-color: transparent;
+     color: white;
+     margin-left: 10px;
+     outline: none;
+     border: 0;
+     box-shadow: 1px 0px 2px 1px inset;
+     border-radius: 20px;
+     padding: 5px;
+
+ }
+ #ullist li {
+     color: #fff;
+     margin-top: 10px;
+     padding-left: 30px;
+     padding-right: 90px;
+ }
+
+ h2 {
+     text-align: center;
+     color: white;
+     border-bottom: 2px solid;
+
+ }
